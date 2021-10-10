@@ -3,29 +3,22 @@
 ## Dupes items including shulkers on 5b5t
 
 ## Installing
+### If you only want to use it to dupe items on 5b5t: 
 Clone this repository onto your computer with
 ```text
 git clone https://github.com/IceTank/mineflayer-5b5t-auto-duper.git
 cd mineflayer-5b5t-auto-duper
 npm i
 ```
-Or add it with npm to an existing node.js project:
+And see the example explanation at the bottom.
+
+
+### If you want to use it as a plugin in an existing project:
+Install it with npm as a module:
 ```text
 npm i --save https+github.com/IceTank/mineflayer-5b5t-auto-duper.git
 ```
-
-## 5b5t auto dupe example
-See example `index.js` in `example`
-
-The example is able to dupe any items with the crafting recipe dupe glitch present on 5b5t. This includes shulker boxes and other items that automatically get refereed by the anti stack plugin.
-
-To use it run 
-```bash
-npm start <email> <password> [isMojangAccount ("true"|"false")]
-```
-You might have to wrap your username and password in `""` for it to work.
-
-Use as a plugin
+And then use it as a plugin
 ```javascript
 // import the plugin
 const autodupePlugin = require('mineflayer-5b5t-auto-dupe')
@@ -42,6 +35,17 @@ bot.on('chat', async (username, message) => {
   bot.chat('Finished')
 })
 ```
+
+## 5b5t auto dupe example
+See example `index.js` in `example`
+
+The example is able to dupe any items with the crafting recipe dupe glitch present on 5b5t. This includes shulker boxes and other items that automatically get refereed by the anti stack plugin.
+
+To use it run 
+```bash
+npm start <email> <password> [isMojangAccount ("true"|"false")]
+```
+You might have to wrap your username and password in `""` for it to work.
 
 ### Commands:
 
