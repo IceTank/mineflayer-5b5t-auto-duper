@@ -1,0 +1,32 @@
+{
+  "name": "mineflayer-5b5t-auto-duper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fix": "standard --fix",
+    "lint": "standard",
+    "start": "node example/index.js"
+  },
+  "keywords": [
+    "mineflayer",
+    "plugin",
+    "5b5t"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IceTank/mineflayer-5b5t-auto-duper.git"
+  },
+  "homepage": "https://github.com/IceTank/mineflayer-5b5t-auto-duper",
+  "author": "Ic3Tank",
+  "license": "ISC",
+  "dependencies": {
+    "mineflayer": "^3.8.0",
+    "mineflayer-pathfinder": "^1.6.3",
+    "mineflayer-web-inventory": "^1.6.3"
+  },
+  "devDependencies": {
+    "standard": "^16.0.4"
+  }
+}
