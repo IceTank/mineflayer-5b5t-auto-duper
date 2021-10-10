@@ -38,7 +38,6 @@ const wait = require('util').promisify(setTimeout)
  */
 function loader (bot) {
   const load = {}
-  load = {}
   load.dupe = dupe
   load.validStack = validStack
   load.drop = drop
