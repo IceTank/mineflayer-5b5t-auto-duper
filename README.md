@@ -2,6 +2,8 @@
 
 ## Dupes items including shulkers on 5b5t
 
+## Over stacked shulkers are enabled again so this is useless now lol
+
 ## Installing
 ### If you only want to use it to dupe items on 5b5t: 
 Clone this repository onto your computer with
